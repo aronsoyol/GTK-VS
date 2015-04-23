@@ -1,19 +1,20 @@
 // Win32Project4.cpp : Defines the entry point for the application.
 //
 #include <gtk/gtk.h> 
-#include <windows.h>
+//#include <windows.h>
 
 // C RunTime Header Files
-#include <stdlib.h>
-#include <malloc.h>
-#include <memory.h>
-#include <tchar.h>
-#include <string>
+//#include <stdlib.h>
+//#include <malloc.h>
+//#include <memory.h>
+//#include <tchar.h>
+//#include <string>
 
-int APIENTRY _tWinMain(_In_ HINSTANCE hInstance,
-	_In_opt_ HINSTANCE hPrevInstance,
-	_In_ LPTSTR    lpCmdLine,
-	_In_ int       nCmdShow)
+//int APIENTRY _tWinMain(_In_ HINSTANCE hInstance,
+//	_In_opt_ HINSTANCE hPrevInstance,
+//	_In_ LPTSTR    lpCmdLine,
+//	_In_ int       nCmdShow)
+int main()
 {
 
 	gtk_init(0, 0);
